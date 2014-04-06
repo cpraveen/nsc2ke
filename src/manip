@@ -1,0 +1,4 @@
+tar cvf NS.tar *
+compress NS.tar
+uuencode NS.tar.Z NS.tar.Z | mailx mohamadi
+rm NS.tar.Z 
